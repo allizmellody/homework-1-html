@@ -1,3 +1,149 @@
-.initial {
-  font: 20px 'Avenir Next', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+body {
+  margin: 0;
+}
+
+.cube__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 620px;
+}
+
+.cube {
+  box-sizing: border-box;
+  font: 16px 'Avenir Next', Arial, "Helvetica Neue", Helvetica, sans-serif;;
+  line-height: 0.96;
+  width: 205px;
+  height: 205px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cube_1 { background: #06b3db; }
+
+.cube_2 { background: #4ed486; }
+
+.cube_3 { background: #6139f6; }
+
+.cube_4 { background: #e3b63d; }
+
+.cube_5 { background: #dc3d66; }
+
+.cube_6 { background: #bd54cd; }
+
+.cube__row1 {
+  padding-bottom: 45px;
+}
+
+.cube__row2 {
+  padding-bottom: 38px;
+}
+
+.cube__icon {
+  background: url("assets/weather_icons.png") no-repeat;
+  background-size: auto 108px;
+  background-position-y: -8px;
+  margin-bottom: 27px;
+}
+
+.item__icon {
+  background: url("assets/weather_icons.png");
+  background-size: auto 28px;
+  width: 25px;
+  height: 22px;
+  background-position-y: -1px;
+  margin: 10px 0;
+}
+
+.cube__icon_bigCR {
+  width: 98px;
+  height: 79px;
+}
+
+.cube__icon_littleCR {
+  width: 27px;
+}
+
+.cube__icon_bigFog {
+  width: 91px;
+  height: 79px;
+  background-position-y: -9px;
+  margin-bottom: 26px;
+}
+
+.cube__icon_bigCS {
+  width: 86px;
+  height: 80px;
+  margin-bottom: 26px;
+}
+
+.cube__icon_bigCSS {
+  width: 91px;
+  height: 90px;
+  background-position-y: -10px;
+}
+
+.cube__icon_bigCWM {
+  width: 69px;
+  height: 65px;
+  background-position-x: -7px;
+}
+
+.cube__icon_bigCloud {
+  width: 92px;
+  height: 77px;
+}
+
+.cube__text {
+  text-transform: uppercase;
+  line-height: .72;
+  text-shadow: 0 1px 0 rgba(77, 209, 132, 0.75);
+}
+
+.cube__dopInfo {
+  box-sizing: border-box;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 21px 26px 16px 25px;
+  font-size: 12px;
+  line-height: .96;
+  display: flex;
+  justify-content: space-between;
+  background: #b63356;
+}
+
+.cube__item {
+  text-align: center;
+}
+.cube__icon_cwm {
+  background-position-x: 2%;
+}
+
+.cube__icon_fog {
+  background-position-x: 17%;
+}
+
+.cube__icon_css {
+  background-position-x: 36%;
+}
+
+.cube__icon_cs {
+  background-position-x: 56.6%;
+}
+
+.cube__icon_cloud {
+  background-position-x: 78%;
+}
+
+.cube__icon_cr {
+  background-position-x: 99%;
+}
+
+.cube__icon_hover {
+  flex-grow: 1;
+  margin: 20px 0 0;
 }

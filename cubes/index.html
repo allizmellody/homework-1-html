@@ -1,14 +1,68 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>cubes widget</title>
-  <link rel="stylesheet" href="index.css"/>
-  <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css"/>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
 </head>
 <body>
 
-<span class='initial'>hello, sweety</span>
+<div class="cube__wrapper">
+  <div class="cube cube_1 cube__row1">
+    <div class="cube__icon cube__icon_cr cube__icon_bigCR"></div>
+    <span class="cube__text">chicago / 23&deg;</span>
+  </div>
+  
+  <div class='cube cube_2 cube__row1'>
+    <div class='cube__icon cube__icon_fog cube__icon_bigFog'></div>
+    <span class='cube__text'>seattle / 34&deg;</span>
+  </div>
+  
+  <div class='cube cube_3 cube__row1'>
+    <div class='cube__icon cube__icon_cs cube__icon_bigCS'></div>
+    <span class='cube__text'>brooklyn / 55&deg;</span>
+  </div>
+  
+  <div class='cube cube_4  cube__row2'>
+    <div class='cube__icon cube__icon_css cube__icon_bigCSS'></div>
+    <span class='cube__text'>portland / 27&deg;</span>
+  </div>
+  
+  <div class='cube cube_5'>
+    <div class='cube__icon cube__icon_cwm cube__icon_bigCWM cube__icon_hover'></div>
+    
+    <ul class="cube__dopInfo">
+      <li class="cube__item">
+        <span class="cube__text">mon</span>
+        <div class="item__icon cube__icon_cr cube__icon_littleCR"></div>
+        <span class="item__deg">22&deg;</span>
+      </li>
+      <li class="cube__item">
+        <span class="cube__text">tue</span>
+        <div class="item__icon cube__icon_cr cube__icon_littleCR"></div>
+        <span class="item__deg">19&deg;</span>
+      </li>
+      <li class="cube__item">
+        <span class="cube__text">wen</span>
+        <div class="item__icon cube__icon_cloud"></div>
+        <span class="item__deg">18&deg;</span>
+      </li>
+      <li class="cube__item">
+        <span class="cube__text">thu</span>
+        <div class="item__icon cube__icon_cs"></div>
+        <span class="item__deg">14&deg;</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div class='cube cube_6 cube__row2'>
+    <div class='cube__icon cube__icon_cloud cube__icon_bigCloud'></div>
+    <span class='cube__text'>san jose / 47&deg;</span>
+  </div>
+</div>
 </body>
 </html>
