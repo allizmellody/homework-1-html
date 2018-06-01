@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>paris widget</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="../cubes/assets/fonts/weather-icons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
+</head>
+<body>
+
+<div class="widget">
+  <section class="widget__today">
+    <section class="widget__date">
+      <h3 class="widget__title date__day">Friday</h3>
+      <span class="widget__month">August, 23rd</span>
+    </section>
+    
+    <section>
+      <h1 class="widget__title widget__title_black">
+        <span class="title__number">12</span>
+        <span class="title__deg">o</span>
+      </h1>
+      <section class="widget__loc">
+        <h3 class="loc__title">Paris, France</h3>
+        <i class="wi wi-strong-wind widget__icon widget__icon_wind"></i>
+        <p class="loc__wind-text">
+          <span class="wind-text__number">14</span>
+          <span class="wind-text_val">mph</span>
+        </p>
+      </section>
+    </section>
+  </section>
+  
+  <div class="widget__daily">
+    <i class="fa fa-angle-left widget__icon"></i>
+    
+    <ul class="list daily__list">
+      <li class="daily__item">
+        <h3 class="widget__title daily__day">Monday</h3>
+        <i class="wi wi-sprinkle widget__icon"></i>
+        <span>10&deg;</span>
+      </li>
+      
+      <li class="daily__item">
+        <h3 class="widget__title daily__day">Tuesday</h3>
+        <i class="wi wi-cloud widget__icon"></i>
+        <span>15&deg;</span>
+      </li>
+      
+      <li class="daily__item">
+        <h3 class="widget__title daily__day">Wednesday</h3>
+        <i class="wi wi-day-sunny widget__icon"></i>
+        <span>32&deg;</span>
+      </li>
+      
+      <li class="daily__item">
+        <h3 class="widget__title daily__day">Thursday</h3>
+        <i class="wi wi-day-cloudy widget__icon"></i>
+        <span>18&deg;</span>
+      </li>
+    </ul>
+    <i class="fas fa-angle-right widget__icon"></i>
+  </div>
+</div>
+</body>
+</html>
