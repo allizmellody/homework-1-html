@@ -1,12 +1,13 @@
-body {
-  margin: 0;
-}
-
 .cube__wrapper {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   width: 620px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: -205px auto;
 }
 
 .cube {
@@ -22,23 +23,23 @@ body {
   align-items: center;
 }
 
-.cube_1 { background: #06b3db; }
+.cube_blue { background: #06b3db; }
 
-.cube_2 { background: #4ed486; }
+.cube_green { background: #4ed486; }
 
-.cube_3 { background: #6139f6; }
+.cube_indigo { background: #6139f6; }
 
-.cube_4 { background: #e3b63d; }
+.cube_orange { background: #e3b63d; }
 
-.cube_5 { background: #dc3d66; }
+.cube_red { background: #dc3d66; }
 
-.cube_6 { background: #bd54cd; }
+.cube_purple { background: #bd54cd; }
 
-.cube__row1 {
+.cube__row-1 {
   padding-bottom: 45px;
 }
 
-.cube__row2 {
+.cube__row-2 {
   padding-bottom: 38px;
 }
 
@@ -58,41 +59,36 @@ body {
   margin: 10px 0;
 }
 
-.cube__icon_bigCR {
+.cube__icon_big-cr {
   width: 98px;
   height: 79px;
 }
 
-.cube__icon_littleCR {
+.cube__icon_little-cr {
   width: 27px;
 }
 
-.cube__icon_bigFog {
+.cube__icon_big-fog {
   width: 91px;
   height: 79px;
-  background-position-y: -9px;
-  margin-bottom: 26px;
 }
 
-.cube__icon_bigCS {
-  width: 86px;
-  height: 80px;
-  margin-bottom: 26px;
+.cube__icon_big-cs {
+  width: 88px;
+  height: 79px;
 }
 
-.cube__icon_bigCSS {
+.cube__icon_big-css {
   width: 91px;
-  height: 90px;
-  background-position-y: -10px;
+  height: 92px;
 }
 
-.cube__icon_bigCWM {
+.cube__icon_big-cwm {
   width: 69px;
   height: 65px;
-  background-position-x: -7px;
 }
 
-.cube__icon_bigCloud {
+.cube__icon_big-cloud {
   width: 92px;
   height: 77px;
 }
@@ -100,7 +96,6 @@ body {
 .cube__text {
   text-transform: uppercase;
   line-height: .72;
-  text-shadow: 0 1px 0 rgba(77, 209, 132, 0.75);
 }
 
 .cube__dopInfo {
@@ -113,12 +108,13 @@ body {
   line-height: .96;
   display: flex;
   justify-content: space-between;
-  background: #b63356;
+  background: #bd3559;
 }
 
 .cube__item {
   text-align: center;
 }
+
 .cube__icon_cwm {
   background-position-x: 2%;
 }
