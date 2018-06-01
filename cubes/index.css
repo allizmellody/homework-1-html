@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  background: #006064;
+  height: 100vh;
+}
+
 .cube__wrapper {
   display: flex;
   flex-wrap: wrap;

@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  background: linear-gradient(40deg, #000, #fff);
+  height: 100vh;
+}
+
 .widget {
   box-sizing: border-box;
   background: url("assets/paris-bg.png");
