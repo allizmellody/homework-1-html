@@ -4,3 +4,11 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'weathericons';
+  src: url('weathericons-regular-webfont.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+

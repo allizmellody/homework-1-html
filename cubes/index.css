@@ -12,7 +12,8 @@
 
 .cube {
   box-sizing: border-box;
-  font: 16px 'Avenir Next', Arial, "Helvetica Neue", Helvetica, sans-serif;;
+  font-family: "Avenir Next", Arial, "Helvetica Neue", Helvetica, sans-serif;;
+  font-weight: 400;
   line-height: 0.96;
   width: 205px;
   height: 205px;
@@ -44,58 +45,32 @@
 }
 
 .cube__icon {
-  background: url("assets/weather_icons.png") no-repeat;
-  background-size: auto 108px;
-  background-position-y: -8px;
   margin-bottom: 27px;
+  font-size: 67px;
 }
 
-.item__icon {
-  background: url("assets/weather_icons.png");
-  background-size: auto 28px;
-  width: 25px;
-  height: 22px;
-  background-position-y: -1px;
-  margin: 10px 0;
+.cube__icon_little {
+  margin: 12px 0;
+  font-size: 20px;
 }
 
-.cube__icon_big-cr {
-  width: 98px;
-  height: 79px;
+.cube__icon_hover {
+  flex-grow: 1;
+  margin: 20px 0 0;
+  font-size: 60px;
 }
 
-.cube__icon_little-cr {
-  width: 27px;
-}
-
-.cube__icon_big-fog {
-  width: 91px;
-  height: 79px;
-}
-
-.cube__icon_big-cs {
-  width: 88px;
-  height: 79px;
-}
-
-.cube__icon_big-css {
-  width: 91px;
-  height: 92px;
-}
-
-.cube__icon_big-cwm {
-  width: 69px;
-  height: 65px;
-}
-
-.cube__icon_big-cloud {
-  width: 92px;
-  height: 77px;
-}
-
-.cube__text {
+.cube__title {
+  margin: 0;
   text-transform: uppercase;
   line-height: .72;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cube__title_little {
+  font-size: 12px;
+  line-height: .96;
 }
 
 .cube__dopInfo {
@@ -104,42 +79,14 @@
   width: 100%;
   margin: 0;
   padding: 21px 26px 16px 25px;
-  font-size: 12px;
-  line-height: .96;
   display: flex;
   justify-content: space-between;
   background: #bd3559;
 }
 
 .cube__item {
-  text-align: center;
-}
-
-.cube__icon_cwm {
-  background-position-x: 2%;
-}
-
-.cube__icon_fog {
-  background-position-x: 17%;
-}
-
-.cube__icon_css {
-  background-position-x: 36%;
-}
-
-.cube__icon_cs {
-  background-position-x: 56.6%;
-}
-
-.cube__icon_cloud {
-  background-position-x: 78%;
-}
-
-.cube__icon_cr {
-  background-position-x: 99%;
-}
-
-.cube__icon_hover {
-  flex-grow: 1;
-  margin: 20px 0 0;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
