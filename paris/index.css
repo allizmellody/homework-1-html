@@ -72,8 +72,14 @@ body {
   margin: 0 0 23px;
 }
 
-.widget__loc {
+.loc__wind {
   margin: 0;
+}
+
+.daily__button {
+  color: #fff;
+  background: none;
+  border: none;
 }
 
 .widget__icon {

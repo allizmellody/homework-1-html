@@ -16,30 +16,34 @@
 <body>
 
 <div class="widget">
-  <section class="widget__today">
-    <section class="widget__date">
+  <div class="widget__today">
+    <div class="widget__date">
       <h3 class="widget__title date__day">Friday</h3>
       <span class="widget__month">August, 23rd</span>
-    </section>
+    </div>
     
-    <section>
+    <div>
       <h1 class="widget__title widget__title_black">
         <span class="title__number">12</span>
         <span class="title__deg">o</span>
       </h1>
-      <section class="widget__loc">
+      <div class="widget__loc">
         <h3 class="loc__title">Paris, France</h3>
-        <i class="wi wi-strong-wind widget__icon widget__icon_wind"></i>
-        <p class="loc__wind-text">
-          <span class="wind-text__number">14</span>
-          <span class="wind-text_val">mph</span>
-        </p>
-      </section>
-    </section>
-  </section>
+        <figure class="loc__wind">
+          <i class="wi wi-strong-wind widget__icon widget__icon_wind"></i>
+          <figcaption class="loc__wind-text">
+            <span class="wind-text__number">14</span>
+            <span class="wind-text_val">mph</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
   
   <div class="widget__daily">
-    <i class="fa fa-angle-left widget__icon"></i>
+    <button class="daily__button">
+      <i class="fa fa-angle-left widget__icon"></i>
+    </button>
     
     <ul class="list daily__list">
       <li class="daily__item">
@@ -66,7 +70,9 @@
         <span>18&deg;</span>
       </li>
     </ul>
-    <i class="fas fa-angle-right widget__icon"></i>
+    <button class="daily__button">
+      <i class="fas fa-angle-right widget__icon"></i>
+    </button>
   </div>
 </div>
 </body>
